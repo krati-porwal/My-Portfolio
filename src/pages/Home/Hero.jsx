@@ -3,7 +3,9 @@ import profilePic from "../../assets/images/kratiphoto.jpg";
 
 const Hero = () => {
   return (
-    <section className="hero-section text-light d-flex align-items-center">
+    
+    <section className="row mx-0 text-light d-flex justify-content-center align-items-center hero-section">
+      <div className="col-md-11 col-12">
       <div className="row mx-0 w-100 align-items-center min-vh-100">
         {/* Left Content */}
         <div className="col-12 col-md-6 order-2 order-md-1">
@@ -36,12 +38,6 @@ const Hero = () => {
             With hands-on experience in real-world projects and internships, I
             turn ideas into interactive user experiences.
           </p>
-
-          {/* Current Focus */}
-          <div className="d-flex align-items-center mb-4 p-3 rounded-pill bg-dark bg-opacity-50">
-            <i className="bi bi-rocket-fill text-info me-2"></i>
-            <span>Currently exploring Computer Vision & DSA</span>
-          </div>
 
           {/* Buttons */}
           <div className="d-flex flex-wrap gap-3">
@@ -89,6 +85,7 @@ const Hero = () => {
             </span>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
