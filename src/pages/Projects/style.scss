@@ -1,0 +1,25 @@
+/* src/styles/projects.css */
+
+/* project card background (dark translucent) */
+.project-card {
+  background: rgba(15, 17, 20, 0.75);
+  border: 1px solid rgba(255,255,255,0.04);
+  color: #e6eef8;
+}
+
+/* image styling to match screenshot */
+.project-img {
+  height: 100%;
+  min-height: 220px;
+  object-fit: cover;
+}
+
+/* slightly round corners on the image block */
+.project-card .project-img {
+  border-radius: 0.5rem 0 0 0.5rem; /* default; the content column has its own rounding via card */
+}
+
+/* small responsive text tweaks */
+@media (max-width: 767.98px) {
+  .project-img { min-height: 180px; }
+}
