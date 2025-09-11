@@ -31,7 +31,8 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section className="py-5 bg-black text-light">
+    <section className="row mx-0 d-flex justify-content-center align-items-center py-5 bg-black text-light">
+      <div className="col-md-11 col-12">
       <h2 className="text-center mb-5 fw-bold">Skills &amp; Technologies</h2>
       <div className="row g-4 mx-0">
         {skillsData.map((category, index) => (
@@ -39,6 +40,7 @@ const SkillsSection = () => {
             <SkillCard {...category} />
           </div>
         ))}
+      </div>
       </div>
     </section>
   );

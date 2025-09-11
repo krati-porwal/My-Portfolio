@@ -12,7 +12,8 @@ while continuously learning and adapting to new technologies. I'm passionate abo
 user experiences that make a difference and building solutions that solve real-world problems.`;
 
   return (
-    <section className="py-5 bg-black text-white">
+    <section className="row mx-0 d-flex justify-content-center align-items-center py-5 bg-black text-white">
+      <div className="col-md-11 col-12">
       <div className="row justify-content-center gx-5">
         {/* Journey Section */}
         <div className="col-md-6 mb-4">
@@ -35,6 +36,7 @@ user experiences that make a difference and building solutions that solve real-w
             <p className="fs-5 text-light mb-0">{goalContent}</p>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

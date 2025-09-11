@@ -12,8 +12,9 @@ const ProficiencySection = () => {
 
   return (
     <section
-      className="py-5 text-light bg-black"
+      className="row mx-0 d-flex justify-content-center align-items-center py-5 text-light bg-black"
     >
+      <div className="col-md-11 col-12">
       {/* Section Title */}
       <h2 className="text-center fw-bold mb-4">
         <FaTools className="me-2" />
@@ -45,6 +46,7 @@ const ProficiencySection = () => {
            
           </div>
         ))}
+      </div>
       </div>
     </section>
   );
