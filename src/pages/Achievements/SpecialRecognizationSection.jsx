@@ -2,9 +2,10 @@ import { FaStar, FaTrophy } from "react-icons/fa";
 
 const SpecialRecognizationSection = () => {
   return (
-    <section className=" bg-black py-5">
+    <section className="row mx-0 d-flex justify-content-center align-items-center bg-black py-5">
+      <div className="col-md-11 col-12">
       <div className="row justify-content-center">
-        <div className="col-12 col-md-10">
+        <div className="col-12 col-md-8">
           <div className="card shadow-sm border rounded-3 p-4 text-center bg-dark text-light">
             {/* Star Icon */}
             <FaStar className="text-warning mb-3" size={50} />
@@ -24,6 +25,7 @@ const SpecialRecognizationSection = () => {
             <FaTrophy className="text-warning" size={40} />
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

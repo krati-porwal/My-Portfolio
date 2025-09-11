@@ -11,9 +11,8 @@ const TotalAchievements = () => {
 
   return (
     <section
-      className="py-5"
-      style={{ backgroundColor: "#0d0d0d" }}
-    >
+      className="row mx-0 d-flex justify-content-center align-items-center py-5 bg-black">
+        <div className="col-md-11 col-12">
       <div className="row g-4 justify-content-center mx-0">
         {achievements.map((item, index) => (
           <AchievementCard
@@ -23,6 +22,7 @@ const TotalAchievements = () => {
             label={item.label}
           />
         ))}
+      </div>
       </div>
     </section>
   );

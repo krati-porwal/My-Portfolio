@@ -46,12 +46,12 @@ const achievements = [
 
 const AchievementTimelineSection = () => {
   return (
-    <div className="row mx-0 py-5 bg-black">
+    <div className="row mx-0 py-5 d-flex justify-content-center align-items-center bg-black">
       <h2 className="text-center fw-bold text-light mb-5">
         Achievement Timeline
       </h2>
 
-      <div className="col-12 col-md-10 col-lg-8 mx-auto d-flex flex-column gap-5">
+      <div className="col-12 col-md-10 d-flex flex-column gap-5">
         {achievements.map((item, idx) => (
           <AchievementDetailsCard
             key={idx}

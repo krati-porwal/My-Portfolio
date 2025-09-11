@@ -82,8 +82,10 @@ const ContactFormSection = () => {
   ];
 
   return (
-    <div className="row bg-black g-4 py-5">
+    <div className="row mx-0 d-flex justify-content-center align-items-center bg-black g-4 py-5">
+      <div className="col-md-11 col-12">
       {/* Left Side - Contact Info */}
+      <div className="row mx-0 g-4">
       <div className="col-12 col-md-6">
         <h3 className="fw-bold mb-3 text-light">
           <FaPaperPlane className="me-2 text-primary" /> Get in Touch
@@ -232,7 +234,9 @@ const ContactFormSection = () => {
         </div>
       </div>
     </div>
+    </div>
       </div>
+    </div>
   );
 };
 
