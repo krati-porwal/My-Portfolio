@@ -3,6 +3,7 @@ import "./style.scss"; // small custom styles (gradient + tweaks)
 import NutritionImg from "../../assets/images/nutrition-1.png";
 import PartyVerseImg from "../../assets/images/partyvarse-1.png";
 import QuizStudioImg from "../../assets/images/quizstudio-1.png";
+import  PortfolioImg from "../../assets/images/portfolioimg.png";
 
 const ProjectsInfo = () => {
   const projects = [
@@ -41,6 +42,18 @@ const ProjectsInfo = () => {
       liveDemo: "https://your-quiz-studio-demo-link.com/",
       sourceCode: "https://github.com/yourusername/datacode-quiz-studio",
       images: [QuizStudioImg],
+    },
+    {
+      id: 4,
+      title: "Personal Portfolio Website",
+      description:
+        "Designed and developed a responsive portfolio site to showcase my projects and achievements. Built with React, Bootstrap, and SCSS using Vite for a fast development setup. Implemented reusable components and smooth navigation.",
+      metric: "5+ reusable components created",
+      role: "Designed UI/UX and implemented complete frontend architecture",
+      tech: ["React.js", "Bootstrap", "SCSS", "Vite"],
+      liveDemo: "https://your-portfolio-link.netlify.app/",
+      sourceCode: "https://github.com/krati-porwal/My-Portfolio",
+      images: [PortfolioImg], // screenshot of your homepage
     },
     // add more projects...
   ];

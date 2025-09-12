@@ -20,7 +20,7 @@ const ContactInfoCard = ({ icon, label, value, link }) => {
                   {value}
                 </a>
               ) : (
-                <div className="fw-semibold fs-6">{value}</div>
+                <div className="fw-semibold fs-6 text-light">{value}</div>
               )}
             </div>
           </div>

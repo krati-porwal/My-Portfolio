@@ -49,7 +49,7 @@ export default function Navbar() {
 
         {/* Resume Button */}
         <a
-          href="/resume.pdf"
+          href="/KratiPorwal(3).resume.pdf"
           className="btn fw-semibold px-3 py-1"
           style={{
             background: "linear-gradient(90deg, #00c6ff, #4a00e0)",
