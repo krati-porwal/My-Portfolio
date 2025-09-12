@@ -51,7 +51,7 @@ const ProjectsInfo = () => {
       metric: "5+ reusable components created",
       role: "Designed UI/UX and implemented complete frontend architecture",
       tech: ["React.js", "Bootstrap", "SCSS", "Vite"],
-      liveDemo: "https://your-portfolio-link.netlify.app/",
+      liveDemo: "https://my-portfolio-tau-puce-32.vercel.app/",
       sourceCode: "https://github.com/krati-porwal/My-Portfolio",
       images: [PortfolioImg], // screenshot of your homepage
     },
