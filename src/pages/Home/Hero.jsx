@@ -1,5 +1,6 @@
 import "./Style.scss";
 import profilePic from "../../assets/images/kratiphoto.jpg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -41,9 +42,11 @@ const Hero = () => {
 
           {/* Buttons */}
           <div className="d-flex flex-wrap gap-3">
-            <a href="#projects" className="btn btn-primary px-4">
+              <Link to="/projects">
+              <button className="btn btn-primary px-4">
               <i className="bi bi-code-slash me-2"></i> View My Work
-            </a>
+              </button>
+              </Link>
             <a
               href="/resume.pdf"
               download
@@ -55,14 +58,9 @@ const Hero = () => {
         </div>
 
         {/* Right Content */}
-        {/* Right Content */}
         <div className="col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
           <div className="circle-wrapper position-relative">
-            {/* Outermost Circle */}
-            {/* <div className="outer-circle rounded-circle d-flex align-items-center justify-content-center"> */}
-              {/* Middle Circle */}
-              {/* <div className="middle-circle rounded-circle d-flex align-items-center justify-content-center"> */}
-                {/* Innermost Circle with Image */}
+           
                 <div className="inner-circle rounded-circle overflow-hidden d-flex align-items-center justify-content-center">
                   <img
                     src={profilePic}
@@ -70,8 +68,6 @@ const Hero = () => {
                     className="img-fluid w-100 h-100 object-fit-cover"
                   />
                 </div>
-              {/* </div> */}
-            {/* </div> */}
 
             {/* Labels */}
             <span className="badge bg-info position-absolute top-0 end-0">

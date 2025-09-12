@@ -11,12 +11,12 @@ const navLinks = [
 export default function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-md px-4 py-3"
+      className="navbar navbar-expand-md px-5 py-3"
       style={{
         background: "linear-gradient(to right, #1e1e1e, #121212)",
       }}
     >
-      <div className="d-flex w-100 align-items-center justify-content-between">
+      <div className="d-flex w-100 px-5 align-items-center justify-content-between">
         {/* Brand */}
         <span
           className="navbar-brand fw-bold mb-0 h1"
@@ -60,7 +60,7 @@ export default function Navbar() {
         >
           Resume
         </a>
-      </div>
+    </div>
     </nav>
   );
 }
