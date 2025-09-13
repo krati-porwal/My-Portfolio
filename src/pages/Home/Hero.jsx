@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     
-    <section className="row mx-0 text-light d-flex justify-content-center align-items-center hero-section">
+    <section className="row mx-0 pb-md-0 pb-5 text-light d-flex justify-content-center align-items-center hero-section">
       <div className="col-md-11 col-12">
       <div className="row mx-0 py-5 align-items-center">
         {/* Left Content */}
@@ -59,7 +59,7 @@ const Hero = () => {
 
         {/* Right Content */}
         <div className="col-12 col-md-6 d-flex justify-content-center">
-          <div className="circle-wrapper position-relative">
+          <div className="circle-wrapper py-md-0 py-3 position-relative">
                 <div className="inner-circle rounded-circle overflow-hidden d-flex align-items-center justify-content-center">
                   <img
                     src={profilePic}

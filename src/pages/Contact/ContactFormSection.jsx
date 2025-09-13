@@ -211,7 +211,7 @@ const ContactFormSection = () => {
             </div>
           </div>
           <div className="row mt-5 d-flex justify-content-center align-items-center">
-            <div className="col-6">
+            <div className="col-md-6 col-12">
               <div className="card border-0 shadow-sm gradient-card text-center p-5 bg-dark text-light">
                 {/* Heading */}
                 <h3 className="fw-bold mb-3">Ready to Work Together?</h3>
