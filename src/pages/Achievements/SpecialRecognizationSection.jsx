@@ -6,7 +6,7 @@ const SpecialRecognizationSection = () => {
       <div className="col-md-11 col-12">
       <div className="row justify-content-center">
         <div className="col-12 col-md-8">
-          <div className="card shadow-sm border rounded-3 p-4 text-center bg-dark text-light">
+          <div className="card shadow-sm border-none rounded-3 p-4 d-flex flex-column justify-content-center align-items-center text-center bg-dark text-light">
             {/* Star Icon */}
             <FaStar className="text-warning mb-3" size={50} />
 

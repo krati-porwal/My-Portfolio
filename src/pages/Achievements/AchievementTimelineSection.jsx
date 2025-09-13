@@ -1,5 +1,5 @@
 import AchievementDetailsCard from "../../ReusableComponents/AchievementDetailsCard";
-import { FaBuilding, FaAward } from "react-icons/fa";
+import { FaBuilding, FaAward ,FaCertificate} from "react-icons/fa";
 
 const achievements = [
   {
@@ -9,6 +9,16 @@ const achievements = [
     date: "Nov 2025 - Upcoming",
     description:
       "Selected through Python course completion and assessment. Upcoming opportunity to work on real-world projects and gain industry experience.",
+    type: "Internship",
+    icon: FaBuilding,
+  },
+  {
+    title: "Web Development Internship",
+    organization: "DataCode",
+    status: "Ongoing",
+    date: "2025",
+    description:
+      "Contributed to real-world projects: Nutrition Consultant Website, PartyVerse, Datacode Quiz Studio. Developed expertise in React.js, TypeScript, and frontend practices.",
     type: "Internship",
     icon: FaBuilding,
   },
@@ -26,22 +36,42 @@ const achievements = [
     title: "AWS Virtual Cloud Computing Internship",
     organization: "Amazon Web Services",
     status: "Completed",
-    date: "2024",
+    date: "july 2025",
     description:
       "Hands-on experience with EC2, S3, IAM, VPC, AWS CLI, and deployed cloud solutions. Learned cloud architecture and deployment strategies.",
     type: "Internship",
     icon: FaBuilding,
   },
   {
-    title: "Web Development Internship",
-    organization: "DataCode",
-    status: "Completed",
-    date: "2024",
-    description:
-      "Contributed to real-world projects: Nutrition Consultant Website & PartyVerse. Developed expertise in React.js, TypeScript, and frontend practices.",
-    type: "Internship",
-    icon: FaBuilding,
-  },
+  title: "Python Foundation",
+  organization: "Infosys Springboard",
+  status: "Completed",
+  date: "June 2025",
+  description:
+    "Earned the Python Foundation Certification by Infosys Springboard, demonstrating solid understanding of Python programming fundamentals.",
+  type: "Certification",
+  icon: FaCertificate,
+},
+{
+  title: "Core & Advanced Python",
+  organization: "Blue Chip Coaching",
+  status: "Completed",
+  date: "Aug 2024",
+  description:
+    "Completed Core and Advanced Python training with an A++ grade, gaining strong knowledge in Python programming concepts.",
+  type: "Certification",
+  icon: FaCertificate,
+},
+{
+  title: "Programming in C & C++",
+  organization: "Blue Chip Coaching",
+  status: "Completed",
+  date: "Sept 2023",
+  description:
+    "Successfully completed the curriculum of Programming in C and C++ with an A++ grade.",
+  type: "Certification",
+  icon: FaCertificate,
+},
 ];
 
 const AchievementTimelineSection = () => {

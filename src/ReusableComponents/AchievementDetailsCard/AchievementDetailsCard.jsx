@@ -58,7 +58,9 @@ const AchievementDetailsCard = ({
           <p className="text-light mt-3 mb-2">{description}</p>
 
           {/* Type */}
+          <div className="mb-3 mt-2">
           <Badge bg="secondary">{type}</Badge>
+          </div>
         </div>
       </div>
     </div>

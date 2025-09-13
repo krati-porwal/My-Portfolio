@@ -3,9 +3,9 @@ import AchievementCard from "../../ReusableComponents/AchievementCard";
 
 const TotalAchievements = () => {
   const achievements = [
-    { icon: FaTrophy, value: "4+", label: "Total Achievements" },
+    { icon: FaTrophy, value: "7+", label: "Total Achievements" },
     { icon: FaBuilding, value: "3+", label: "Internships" },
-    { icon: FaAward, value: "2+", label: "Certifications" },
+    { icon: FaAward, value: "4+", label: "Certifications" },
     { icon: FaStar, value: "#1", label: "College Rank (PwC)" },
   ];
 

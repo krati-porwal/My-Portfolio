@@ -7,9 +7,9 @@ const Hero = () => {
     
     <section className="row mx-0 text-light d-flex justify-content-center align-items-center hero-section">
       <div className="col-md-11 col-12">
-      <div className="row mx-0 w-100 align-items-center min-vh-100">
+      <div className="row mx-0 py-5 align-items-center">
         {/* Left Content */}
-        <div className="col-12 col-md-6 order-2 order-md-1">
+        <div className="col-12 col-md-6">
           {/* Badge */}
           <div className="d-inline-flex align-items-center px-3 py-2 rounded-pill bg-dark bg-opacity-50 border border-light mb-3">
             <span
@@ -20,17 +20,17 @@ const Hero = () => {
           </div>
 
           {/* Heading */}
-          <h1 className="display-4 fw-bold mb-3">
+          <h1 className="display-5 fw-bold mb-3">
             Hi, I'm <br />
             <span className="gradient-text">Krati Porwal</span>
           </h1>
 
           {/* Roles */}
-          <h4 className="text-info fw-semibold mb-2">Frontend Developer</h4>
-          <h4 className="text-info fw-semibold mb-2">React.js Enthusiast</h4>
-          <h4 className="text-info fw-semibold mb-3">
+          <h5 className="text-info fw-semibold mb-2">Frontend Developer</h5>
+          <h5 className="text-info fw-semibold mb-2">React.js Enthusiast</h5>
+          <h5 className="text-info fw-semibold mb-3">
             Future Full-Stack Engineer
-          </h4>
+          </h5>
 
           {/* About */}
           <p className="lead text-light opacity-75 mb-4">
@@ -58,9 +58,8 @@ const Hero = () => {
         </div>
 
         {/* Right Content */}
-        <div className="col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
+        <div className="col-12 col-md-6 d-flex justify-content-center">
           <div className="circle-wrapper position-relative">
-           
                 <div className="inner-circle rounded-circle overflow-hidden d-flex align-items-center justify-content-center">
                   <img
                     src={profilePic}

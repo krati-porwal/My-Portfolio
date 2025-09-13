@@ -4,7 +4,7 @@ import "./Style.scss";
 const stats = [
   {
     icon: <FaCode className="fs-2 text-white" />,
-    value: "2+",
+    value: "3+",
     label: "Real-world Projects",
   },
   {

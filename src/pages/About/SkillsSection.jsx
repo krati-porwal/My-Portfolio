@@ -11,12 +11,12 @@ const SkillsSection = () => {
     {
       title: "Frontend",
       icon: FaPalette,
-      skills: ["HTML", "CSS", "SCSS", "React.js", "Redux Toolkit", "Ant Design"],
+      skills: ["HTML", "CSS", "SCSS", "React.js", "Redux Toolkit"],
     },
     {
       title: "Backend Basics",
       icon: FaDatabase,
-      skills: ["Node.js"],
+      skills: ["Flask","FastAPI"],
     },
     {
       title: "Data Science",

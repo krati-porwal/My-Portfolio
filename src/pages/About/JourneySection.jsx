@@ -3,8 +3,8 @@ import { FaLightbulb, FaBullseye } from "react-icons/fa";
 const JourneySection = () => {
   const journeyContent = [
     "I'm a final-year engineering student specializing in frontend development with strong problem-solving skills. My tech journey started with Python, where I mastered core concepts, NumPy, Pandas, and Matplotlib.",
-    "Later, I transitioned into web development, working with HTML, CSS/SCSS, JavaScript, and React.js. Through my internship at DataCode, I worked on two real-world projects — Nutrition Consultant Website and PartyVerse — using React.js, TypeScript, Redux Toolkit, SCSS, and Ant Design.",
-    "I also learned modular architecture, state management, and collaborative development using Git. Currently, I'm selected for Infosys Springboard Virtual Internship starting Nov 2025, and exploring Computer Vision with MediaPipe.",
+    "Later, I transitioned into web development, working with HTML, CSS/SCSS, JavaScript, and React.js. Through my internship at DataCode, I worked on three real-world projects — Nutrition Consultant Website , PartyVerse , Datacode Quiz Studio — using React.js, TypeScript, Redux Toolkit and SCSS.",
+    "I also learned modular architecture, state management, and collaborative development using Git. Currently, I'm selected for Infosys Springboard Virtual Internship starting Nov 2025."
   ];
 
   const goalContent = `To become a full-stack developer contributing to scalable and impactful applications, 

@@ -7,20 +7,9 @@ import  PortfolioImg from "../../assets/images/portfolioimg.png";
 
 const ProjectsInfo = () => {
   const projects = [
-    {
+    
+      {
       id: 1,
-      title: "Nutrition Consultant Website",
-      description:
-        "Developed and deployed a responsive web app to help users get nutrition advice and track diets. Improved user engagement by ~30% within the first month of launch.",
-      metric: "30% increased user engagement",
-      role: "Built UI components, handled responsiveness, and integrated interactive features",
-      tech: ["React.js", "SCSS", "Responsive Design"],
-      liveDemo: "https://amitapatil.netlify.app/",
-      sourceCode: "https://github.com/akshayDatacode/amita-patil",
-      images: [NutritionImg],
-    },
-    {
-      id: 2,
       title: "PartyVerse",
       description:
         "Contributed to a modular, scalable event management web app. Implemented project structure with UI, components, models, pages, and integrated Redux Toolkit for efficient state management.",
@@ -30,6 +19,18 @@ const ProjectsInfo = () => {
       liveDemo: "https://partyverse.netlify.app/",
       sourceCode: "https://github.com/akshayDatacode/partyverse",
       images: [PartyVerseImg],
+    },
+    {
+      id: 2,
+      title: "Nutrition Consultant Website",
+      description:
+        "Developed and deployed a responsive web app to help users get nutrition advice and track diets. Improved user engagement by ~30% within the first month of launch.",
+      metric: "30% increased user engagement",
+      role: "Built UI components, handled responsiveness, and integrated interactive features",
+      tech: ["React.js", "SCSS", "Responsive Design"],
+      liveDemo: "https://amitapatil.netlify.app/",
+      sourceCode: "https://github.com/akshayDatacode/amita-patil",
+      images: [NutritionImg],
     },
     {
       id: 3,
