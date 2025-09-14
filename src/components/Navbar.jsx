@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation} from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
+import "./Style.scss";
 
 const navLinks = [
   { name: "Home", to: "/" },
@@ -12,6 +13,7 @@ const navLinks = [
 
 export default function Navbar() {
    const [open, setOpen] = useState(false);
+   const location = useLocation();
 
   return (
     <>
@@ -41,8 +43,14 @@ export default function Navbar() {
           {navLinks.map((link) => (
             <li className="nav-item" key={link.name}>
               <Link
-                className="nav-link px-2 text-secondary"
+              
                 to={link.to}
+                // ⭐ CHANGED: added custom classes & active-link check
+                className={`nav-link px-2 nav-link-custom ${
+                  location.pathname === link.to ? "active-link" : ""
+                }`}
+                // ⭐ CHANGED: aria-current for accessibility
+                aria-current={location.pathname === link.to ? "page" : undefined}
                 style={{
                   transition: "color 0.3s",
                 }}

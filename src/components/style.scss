@@ -1,0 +1,13 @@
+.nav-link-custom {
+  transition: color 0.3s;
+  color: #e2e8ee !important;          /* like Bootstrap text-secondary */
+}
+
+.nav-link-custom:hover {
+  color: #00c6ff !important; /* hover effect */
+}
+
+.active-link {
+  color: #00c6ff !important; /* active (current page) color */
+  font-weight: 600;
+}
