@@ -1,7 +1,7 @@
 import { Link, useLocation} from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
-import "./Style.scss";
+import "./style.scss";
 
 const navLinks = [
   { name: "Home", to: "/" },
