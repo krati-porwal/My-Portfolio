@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 const SeeMoreSection = () => {
   return (
     <div className="row mx-0 py-3 pb-5 bg-black text-light d-flex justify-content-center">
-      <div className="col-12 col-md-5 py-5 px-2 rounded-3 border-0 bg-dark text-center">
+      <div className="col-10 col-md-5 py-5 px-2 rounded-3 border-0 bg-dark text-center">
         {/* Heading */}
         <h3 className="fw-bold fs-2 mb-3">Want to see more?</h3>
 

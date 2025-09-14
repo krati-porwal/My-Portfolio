@@ -61,7 +61,7 @@ const ProjectsInfo = () => {
 
   return (
     <section className="row mx-0 d-flex justify-content-center align-items-center py-5 bg-black projects-section text-light">
-      <div className="col-md-11 col-12">
+      <div className="col-md-11 col-12 px-0">
         <div className="row g-4 mx-0 px-3">
           {projects.map((p, idx) => (
             <div key={p.id} className="col-12">

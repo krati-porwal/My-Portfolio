@@ -16,7 +16,7 @@ user experiences that make a difference and building solutions that solve real-w
       <div className="col-md-11 col-12">
       <div className="row justify-content-center gx-5">
         {/* Journey Section */}
-        <div className="col-md-6 mb-4">
+        <div className="col-md-6 col-12 mb-4">
           <h2 className="h3 fw-bold mb-4 d-flex align-items-center">
             <FaLightbulb className="text-info me-2" />
             My Journey
@@ -27,7 +27,7 @@ user experiences that make a difference and building solutions that solve real-w
         </div>
 
         {/* Career Goal Section */}
-        <div className="col-md-6 mb-4">
+        <div className="col-md-6 col-12 mb-4">
           <h2 className="h3 fw-bold mb-4 d-flex align-items-center">
             <FaBullseye className="text-primary me-2" />
             Career Goal
