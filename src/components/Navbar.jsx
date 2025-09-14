@@ -120,7 +120,11 @@ export default function Navbar() {
             <li key={link.name}>
               <Link
                 to={link.to}
-                className="nav-link text-white"
+                // ⭐ CHANGED: same active-link check inside sidebar
+                className={`nav-link nav-link-custom ${
+                  location.pathname === link.to ? "active-link" : ""
+                }`}
+                aria-current={location.pathname === link.to ? "page" : undefined}
                 onClick={() => setOpen(false)}
               >
                 {link.name}
