@@ -16,7 +16,7 @@ const SkillsSection = () => {
     {
       title: "Backend Basics",
       icon: FaDatabase,
-      skills: ["Flask","FastAPI"],
+      skills: ["FastAPI"],
     },
     {
       title: "Data Science",
