@@ -40,7 +40,7 @@ const ProjectsInfo = () => {
       metric: "15+ reusable components created",
       role: "Developed UI and integrated APIs",
       tech: ["React.js", "Bootstrap", "SCSS", "API Integration"],
-      liveDemo: "https://your-quiz-studio-demo-link.com/",
+      liveDemo: "https://quiz.datacode.in/",
       sourceCode: "https://github.com/yourusername/datacode-quiz-studio",
       images: [QuizStudioImg],
     },
